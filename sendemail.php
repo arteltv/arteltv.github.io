@@ -7,7 +7,7 @@ $to   		= 'arteltv.axangaran@gmail.com';//replace with your email
 
 $headers   = array();
 $headers[] = "MIME-Version: 1.0";
-$headers[] = "Content-type: text/plain; charset=iso-8859-1";
+$headers[] = "Content-type: text/plain; charset=utf-8\r\n";
 $headers[] = "From: {$name} <{$from}>";
 $headers[] = "Reply-To: <{$from}>";
 $headers[] = "Subject: {$subject}";
