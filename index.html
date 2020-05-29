@@ -1,665 +1,267 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Завод по производсву телевизоров">
-  <meta name="author" content="Shayunusov">
-  <title>Artel TV Axangaran</title>
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/animate.min.css" rel="stylesheet"> 
-  <link href="css/font-awesome.min.css" rel="stylesheet">
-  <link href="css/lightbox.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
-  <link id="css-preset" href="css/presets/preset1.css" rel="stylesheet">
-  <link href="css/responsive.css" rel="stylesheet">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
-  <![endif]-->
-  
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
-  <link rel="shortcut icon" href="images/favicon.png">
-</head><!--/head-->
+  <title>ARTEL TV</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Bootslander - v2.1.0
+  * Template URL: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
 
 <body>
 
-  <!--.preloader-->
-  <div class="preloader"> <i class="fa fa-circle-o-notch fa-spin"></i></div>
-  <!--/.preloader-->
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center">
 
-  <header id="home">
-    <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="item active" style="background-image: url(images/slider/1.jpg)">
-          <div class="caption">
-            <h1 class="animated fadeInLeftBig">Добро пожаловать в <span>Artel TV</span></h1>
-            <p class="animated fadeInRightBig">Националный подукт</p>
-            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Просмотр</a>
-          </div>
-        </div>
-        <div class="item" style="background-image: url(images/slider/2.jpg)">
-          <div class="caption">
-            <h1 class="animated fadeInLeftBig">Мы- <span>Ахангаране</span></h1>
-            <p class="animated fadeInRightBig">Завод по производстве телевизоров</p>
-            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Просмотр</a>
-          </div>
-        </div>
-        <div class="item" style="background-image: url(images/slider/3.jpg)">
-          <div class="caption">
-            <h1 class="animated fadeInLeftBig">Непревзойденные- <span> Телевизоры </span></h1>
-            <p class="animated fadeInRightBig">Выбери свой идеальный телевизор</p>
-            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Просмотр</a>
-          </div>
-        </div>
+      <div class="logo mr-auto">
+        <h1 class="text-light"><a href="index.html"><span>ARTEL TV</span></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
-      <a class="left-control" href="#home-slider" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-      <a class="right-control" href="#home-slider" data-slide="next"><i class="fa fa-angle-right"></i></a>
 
-      <a id="tohash" href="#services"><i class="fa fa-angle-down"></i></a>
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="#header">Главное</a></li>
+          <li><a href="#about">О Нас</a></li>
+          <li><a href="#features">Телевизоры</a></li>
+          <li><a href="#gallery">Детали</a></li>
 
-    </div><!--/#home-slider-->
-    <div class="main-nav">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html">
-            <h1><img class="img-responsive" src="images/logo.png" alt="logo"></h1>
-          </a>                    
-        </div>
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">                 
-            <li class="scroll active"><a href="#home">Главное</a></li>
-            <li class="scroll"><a href="#services">Стратегия</a></li> 
-            <li class="scroll"><a href="#about-us">О нас</a></li>                     
-            <li class="scroll"><a href="#portfolio">Продукции</a></li>
-            <li class="scroll"><a href="#pricing">Инструкции</a></li>
-            <li class="scroll"><a href="#blog">Сертификаты</a></li>
-            <li class="scroll"><a href="#contact">Контакт</a></li>       
-          </ul>
-        </div>
-      </div>
-    </div><!--/#main-nav-->
-  </header><!--/#home-->
-  <section id="services">
-    <div class="container">
-      <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-        <div class="row">
-          <div class="text-center col-sm-8 col-sm-offset-2">
-            <h2>Наша Стратегия</h2>
-            <p>Мы следуем определенной стратегии, благодаря которой наша компания и работающие в ней сотрудники непрерывно и всесторонне развиваются. Основные тезисы нашего стратегического плана развития:
+          <li class="drop-down"><a href="">Service Manual</a>
+                  <ul>
+                    <li class="drop-down"><a href="#">UA32H1200 / US43H1400</a>
+                      <ul>
+                        <li><a href="assets/Service Manual/32-43 smart ANDROID/Service Manual 32, 43 new SMART ANDROID.pdf">UA32H1200</a></li>
+                        <li><a href="assets/Service Manual/32-43 smart ANDROID/Service Manual 32, 43 new SMART ANDROID.pdf">US43H1400</a></li>
+                        <li><a href="assets/Service Manual/32-43 smart ANDROID/SXEMA 32&43 new SMART ANDROID.pdf">Схема(32 & 43)</a></li>
+                      </ul>
+                    </li>
+                    <li class="drop-down"><a href="#">32AH90G / 43AF90G</a>
+                      <ul>
+                        <li><a href="assets/Service Manual/32AH90G&43AF90G/Service Manual 32,43 (new models).pdf">32AH90G</a></li>
+                        <li><a href="assets/Service Manual/32AH90G&43AF90G/Service Manual 32,43 (new models).pdf">43AF90G</a></li>
+                        <li><a href="assets/Service Manual/32AH90G&43AF90G/СХЕМА-32AH90G.pdf">СХЕМА-32AH90G</a></li>
+                        <li><a href="assets/Service Manual/32AH90G&43AF90G/СХЕМА-43AF90G.pdf">СХЕМА-43AF90G</a></li>
+                      </ul>
+                    </li>
+                    <li class="drop-down"><a href="#">32AH90G / 43AF90G Smart</a>
+                      <ul>
+                        <li><a href="assets/Service Manual/32AH90G&43AF90G/Service Manual 32,43 (new models).pdf">32AH90G Smart</a></li>
+                        <li><a href="assets/Service Manual/32AH90G&43AF90G/Service Manual 32,43 (new models).pdf">43AF90G Smart</a></li>
+                        <li><a href="assets/Service Manual/32AH90G&43AF90G/СХЕМА-32AH90G.pdf">СХЕМА-32AH90G SMART</a></li>
+                        <li><a href="assets/Service Manual/32AH90G&43AF90G/СХЕМА-43AF90G.pdf">СХЕМА-43AF90G SMART</a></li>
+                      </ul>
+                    </li>
+                    <li class="drop-down"><a href="#">UA43H3401 / UA50H3401</a>
+                      <ul>
+                        <li><a href="assets/Service Manual/43&50 FHD smart D8000/Service Manual UA43H3401, UA50H3401 (FHD smart).pdf">UA43H3401</a></li>
+                        <li><a href="assets/Service Manual/43&50 FHD smart D8000/Service Manual UA43H3401, UA50H3401 (FHD smart).pdf">UA50H3401</a></li>
+                        <li><a href="assets/Service Manual/43&50 FHD smart D8000/SXEMA 43 FHD Smart.pdf">СХЕМА 43 FHD Smart</a></li>
+                        <li><a href="assets/Service Manual/43&50 FHD smart D8000/SXEMA 50 FHD Smart.pdf">СХЕМА 50 FHD Smart</a></li>
+                      </ul>
+                    </li>
+                    <li class="drop-down"><a href="#">UA43H3301 / UA50H3301</a>
+                      <ul>
+                        <li><a href="assets/Service Manual/43&50 Normal D8000/Service Manual UA43H3301, UA50H3301 (Normal).pdf">UA43H3301</a></li>
+                        <li><a href="assets/Service Manual/43&50 Normal D8000/Service Manual UA43H3301, UA50H3301 (Normal).pdf">UA50H3301</a></li>
+                        <li><a href="assets/Service Manual/43&50 Normal D8000/SXEMA 43D8000 Normal.pdf">СХЕМА 43 Normal</a></li>
+                        <li><a href="assets/Service Manual/43&50 Normal D8000/SXEMA 50D8000 Normal.pdf">СХЕМА 50 Normal</a></li>
+                      </ul>
+                    </li>
+                    <li class="drop-down"><a href="#">UA43H3502 / UA50H3502</a>
+                      <ul>
+                        <li><a href="assets/Service Manual/43&50 UHD smart D8000/Service Manual UA43H3502, UA50H3502 (UHD smart).pdf">UA43H3502</a></li>
+                        <li><a href="assets/Service Manual/43&50 UHD smart D8000/Service Manual UA43H3502, UA50H3502 (UHD smart).pdf">UA50H3502</a></li>
+                        <li><a href="assets/Service Manual/43&50 UHD smart D8000/SXEMA 43 UHD Smart.pdf">СХЕМА 43 UHD Smart</a></li>
+                        <li><a href="assets/Service Manual/43&50 UHD smart D8000/SXEMA 50 UHD Smart.pdf">СХЕМА 50 UHD Smart</a></li>
+                      </ul>
+                    </li>
 
-     - Внедрение передовых методов проектирования и разработки, внедрение инновационных технологий в сферу производства для создания продукции, соответствующей международным стандартам, а также желаниям и вкусу потребителей.
-     - Освоение внешних рынков путем производства и поставки качественной, функциональной, современной и доступной для всех продукции.
-     - Повышение квалификации и развитие сотрудников компании, создание оптимальных условий труда, а также участие в разнообразных государственных социальных проектах.
-     - Определение потребностей и ожиданий потребителей от продукции Artel, также оценка и работа над повышением их удовлетворенности.
-     - Работа над совершенствованием уровня сервисного обслуживания потребителей.</p>
-          </div>
-        </div> 
-      </div>
-      <div class="text-center our-services">
-        <div class="row">
-          <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <div class="service-icon">
-              <i class="fa fa-eye"></i>
-            </div>
-            <div class="service-info">
-              <h3>Как мы видим Artel</h3>
-              <p>Artel – это динамично и устойчиво развивающаяся компания, создающая инновации в сфере высоких технологий, и активно внедряющая их в производство электротехники. Мы стараемся показать это вам через свою продукцию, которая постоянно совершенствуется, модернизируется, становится более удобной, доступной, качественной и функциональной.</p>
-            </div>
-          </div>
-          <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="450ms">
-            <div class="service-icon">
-              <i class="fa fa-globe"></i>
-            </div>
-            <div class="service-info">
-              <h3>Международные отношения</h3>
-              <p>Мы сотрудничаем со всемирно известными компаниями, такими, как Samsung и Shivaki. Производственной мощи Artel достаточно для производства продукции иностранных партнеров в полном соответствии с их техническими требованиями и стандартами. В данный момент Artel производит холодильники, мониторы, телевизоры и пылесосы компании Samsung, а также линейку бытовой техники Shivaki.</p>
-            </div>
-          </div>
-          <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="550ms">
-            <div class="service-icon">
-              <i class="fa fa-cloud"></i>
-            </div>
-            <div class="service-info">
-              <h3>Вклад в будущее</h3>
-              <p>В Artel считают, что самый ценный вклад в будущее - это гармоничное развитие подрастающего поколения. Именно по этой причине основана школа Artel Technical School. Artel Technical school – это школа будущего, призванная создать поколения сформированных, грамотных, технически подкованных молодых людей с огромным воображением и большими интеллектуальными возможностями!</p>
-            </div>
-          </div>
-          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="650ms">
-            <div class="service-icon">
-              <i class="fa fa-flask"></i>
-            </div>
-            <div class="service-info">
-              <h3>Исследования и разработки</h3>
-              <p>При компании Artel действует специальный экспериментальный научно-исследовательский центр R&D (Research and Development). Центр R&D активно занимается разработкой и созданием новых технологий, новых конструкторских решений и дизайна, исследованиями и практическими испытаниями находящихся в разработке продукций. Основываясь на требованиях потребителей, исследовательский центр разрабатывает новые идеи для создания ещё более современного и качественного продукта. Именно здесь делается первый шаг на пути к инновации и модернизации.</p>
-            </div>
-          </div>
-          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="750ms">
-            <div class="service-icon">
-              <i class="fa fa-plane"></i>
-            </div>
-            <div class="service-info">
-              <h3>Экспорт</h3>
-              <p>Продукция Artel экспортируется во множество стран, среди которых Украина, Казахстан, Кыргызстан, Афганистан, Азербайджан, Таджикистан, Армения, Грузия, Туркменистан и Российская Федерация. Ассортимент продукции Artel, а также спрос на нее постоянно расширяется. Компания непрерывно расширяет зону экспорта и открывает для себя новые рынки и страны.</p>
-            </div>
-          </div>
-          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="850ms">
-            <div class="service-icon">
-              <i class="fa fa-cogs"></i>
-            </div>
-            <div class="service-info">
-              <h3>ПРОИЗВОДСТВО ТЕЛЕВИЗОРОВ</h3>
-              <p>Новая производственная линия имеет ряд конструктивных новшеств, благодаря которым производство телевизоров стало намного экономичнее и проще с технологической точки зрения. Линия отвечает всем правилам и требованиям современных производственных линий. Процесс состоит из предварительной сборки – приготовление основных узлов, состоящих из LED панели, динамиков, металлических каркасов для крепления плат и панелей, тестовой линии и упаковки.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section><!--/#services-->
-  <section id="about-us" class="parallax">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <h2>О КОМПАНИИ ARTEL</h2>
-            <p>Artel – лидер в производстве бытовой техники и электроники в Центральной Азии. Компания начала свою деятельность в 2011 году с производства газовых плит. В данный момент в ассортименте производимой продукции Artel имеется все, что нужно для дома. Artel выпускает более двадцати видов бытовой техники, среди которых кондиционеры, микроволновые печи, мини-печи, газовые и электрические плиты, телевизоры, холодильники, мобильные телефоны, встраиваемая техника, пылесосы, вытяжки, мелкая бытовая техника и т.д.</p>
-          </div>
-        </div>
-        <div class="col-sm-6">
-          <div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-              <p class="lead">Качества</p>
-              <div class="progress">
-                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="100">100%</div>
-              </div>
-            </div>
-            <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="400ms">
-              <p class="lead">Надёжность</p>
-              <div class="progress">
-                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="100">100%</div>
-              </div>
-            </div>
-            <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="500ms">
-              <p class="lead">Прогрессивность</p>
-              <div class="progress">
-                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="100">100%</div>
-              </div>
-            </div>
-            <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-              <p class="lead">Лыбимый подукт</p>
-              <div class="progress">
-                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="100">100%</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section><!--/#about-us-->
 
-  <section id="portfolio">
-    <div class="container">
-      <div class="row">
-        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-          <h2>Нашы продукции</h2>
-          <p>Выберайте свой телевизор</p>
-        </div>
-      </div> 
-    </div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="images/portfolio/Artel TV UA43H3401 FHD (109 см) Android.png" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>Artel TV UA43H3401 </h3>
-                    <p> FHD (109 см) Android</p>
-                  </div>
-                  <div class="folio-overview">
+                    <li class="drop-down"><a href="#">55A9000</a>
+                      <ul>
+                        <li><a href="assets/Service Manual/55-A9000/Service Manual 55-A9000.pdf">55/A9000</a></li>
+                        <li><a href="assets/Service Manual/55-A9000/Прошивка ПО 55-A9000.pdf">Прошивка 55/A9000</a></li>
+                        <li><a href="assets/Service Manual/55-A9000/СХЕМА-55А9000.pdf">СХЕМА-55А9000</a></li>
+                    </ul>
+                    </li>
+
+                    <li class="drop-down"><a href="#">55A9000 Smart</a>
+                      <ul>
+                        <li><a href="assets/Service Manual/55-A9000-SMART/Service Manual 55 SMART.pdf">55/A9000 Smart</a></li>
+                        <li><a href="assets/Service Manual/55-A9000-SMART/Прошивка ПО 55-A9000 SMART.pdf">Прошивка 55/A9000 Smart</a></li>
+                        <li><a href="assets/Service Manual/55-A9000-SMART/СХЕМА 55-A9000 SMART.pdf">СХЕМА-55/A9000 Smart</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="drop-down"><a href="#">55AU90GS (Slim)</a>
+                      <ul>
+                        <li><a href="assets/Service Manual/55AU90GS/Service manual-55AU90GS.pdf">55AU90GS (Slim)</a></li>
+                        <li><a href="assets/Service Manual/55AU90GS/СХЕМА.pdf">СХЕМА-55AU90GS (Slim)</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="drop-down"><a href="#">UA55H3502 / US55H3502</a>
+                      <ul>
+                        <li><a href="assets/Service Manual/UA55H3500/Service manual-UA55H3500.pdf">UA55H3502 (Smart)</a></li>
+                        <li><a href="assets/Service Manual/UA55H3500/Service manual-UA55H3500.pdf">US55H3502 (Smart)</a></li>
+                        <li><a href="assets/Service Manual/UA55H3500/SXEMA.pdf">СХЕМА-UA55H3502 / US55H3502 (Smart)</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="drop-down"><a href="#">65AF90GA Smart</a>
+                      <ul>
+                        <li><a href="assets/Service Manual/65AF90GA SMART/Service Manual 65 SMART.pdf">65AF90GA Smart</a></li>
+                        <li><a href="assets/Service Manual/65AF90GA SMART/СХЕМА.pdf">СХЕМА-65AF90GA Smart</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="drop-down"><a href="#">65AU90GA (Slim)</a>
+                      <ul>
+                        <li><a href="assets/Service Manual/65AU90GS/Service manual-65AU90GS.pdf">65AU90GS (Slim)</a></li>
+                        <li><a href="assets/Service Manual/65AU90GS/Схема-65AU90GS.pdf">СХЕМА-65AU90GS (Slim)</a></li>
+                      </ul>
+                    </li>
+
+
+                  <li class="drop-down"><a href="#">75 A9000 Smart</a>
+                      <ul>
+                        <li><a href="assets/Service Manual/75-S9000 SMART/Service Manual 75-A9000 SMART.pdf">75 S9000 Smart</a></li>
+                      </ul>
+                  </li>
+
+                    <li class="drop-down"><a href="#">Vesta 32V20H</a>
+                      <ul>
+                        <li><a href="assets/Service Manual/VESTA 32V20H/Service Manual 32V20H.pdf">32V20H</a></li>
+                        <li><a href="assets/Service Manual/VESTA 32V20H/СХЕМА 32V20H.pdf">СХЕМА-32V20H</a></li>
+                      </ul>
+                    </li>
+
+                  </ul>
+
+
+
+
+
+
+
+
+
+
+
+          <li class="drop-down"><a href="">User Manual</a>
+                  <ul>
+                    <li class="drop-down"><a href="#">Artel</a>
+                      <ul>
+                        <li class="drop-down"><a href="#">32</a>
+                          <ul>
+                              <li><a href="assets/user manual/2....UA43H1400.pdf">UA32H1200</a></li>
+                              <li><a href="assets/user manual/2....UA43H1400.pdf">UA32H3200</a></li>
+                              <li><a href="assets/user manual/1....32AH90G.pdf">UA32H4101</a></li>
+                              <li><a href="assets/user manual/1....32AH90G.pdf">32AH90G</a></li>                          
+                          </ul>
+                        </li>
+                        <li class="drop-down"><a href="#">43</a>
+                          <ul>
+                              <li><a href="assets/user manual/2....UA43H1400.pdf">UA43H1401</a></li>
+                              <li><a href="assets/user manual/2....UA43H1400.pdf">UA43H3401</a></li>
+                              <li><a href="assets/user manual/2....UA43H1400.pdf">UA433502</a></li>
+                              <li><a href="assets/user manual/1....32AH90G.pdf">43AF90G</a></li>
+                              <li><a href="assets/user manual/1....32AH90G.pdf">UA43H3301</a></li>
+                              <li><a href="assets/user manual/5....43U20H.pdf">43AU20H</a></li>
+                          </ul>
+                        </li>
+                        <li class="drop-down"><a href="#">50</a>
+                          <ul>
+                              <li><a href="assets/user manual/2....UA43H1400.pdf">UA50H3401</a></li>
+                              <li><a href="assets/user manual/2....UA43H1400.pdf">UA50H3500</a></li>
+                              <li><a href="assets/user manual/1....32AH90G.pdf">UA50H3301</a></li>
+                              <li><a href="assets/user manual/5....43U20H.pdf">50AU20H</a></li>
+                          </ul>
+                        </li>
+                        <li class="drop-down"><a href="#">55</a>
+                          <ul>
+                              <li><a href="assets/user manual/2....UA43H1400.pdf">UA55h3502</a></li>
+                              <li><a href="assets/user manual/3....65AU90GA.pdf">55AU90GS</a></li>
+                              <li><a href="assets/user manual/5....43U20H.pdf">55AU20H</a></li>                          
+                          </ul>
+                        </li>
+                        <li class="drop-down"><a href="#">65</a>
+                          <ul>
+                              <li><a href="assets/user manual/3....65AU90GA.pdf">65AU90GA</a></li>
+                              <li><a href="assets/user manual/3....65AU90GA.pdf">65AU90GS</a></li>
+                              
+                          </ul>
+                        </li>
+                        <li class="drop-down"><a href="#">75</a>
+                          <ul>
+                              <li><a href="assets/user manual/3....65AU90GA.pdf">75/S9000</a></li>                            
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="drop-down"><a href="#">Shivaki</a>
+                      <ul>
+                        <li class="drop-down"><a href="#">32</a>
+                          <ul>
+                              <li><a href="assets/user manual/4....32SH90G.pdf">32SH90G</a></li>
+                              <li><a href="assets/user manual/4....32SH90G.pdf">US32H4103</a></li>                        
+                          </ul>
+
+                        </li>
+                        <li class="drop-down"><a href="#">43</a>
+                          <ul>
+                              <li><a href="assets/user manual/4....32SH90G.pdf">43SF90G</a></li>
+                              <li><a href="assets/user manual/4....32SH90G.pdf">US43H3303</a></li>
+                          </ul>
+                        </li>
+                        <li class="drop-down"><a href="#">50</a>
+                          <ul>
+                              <li><a href="">US50H3303</a></li>                       
+                          </ul>
+                        </li>                        
+                      </ul>
+                    </li>
+                    <li class="drop-down"><a href="#">Vesta</a>
+                      <ul>
+                        <li class="drop-down"><a href="#">32</a>
+                          <ul>
+                              <li><a href="">32V10H</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>                 
                     
-                    <span class="folio-expand"><a href="images/portfolio/Artel TV UA43H3401 FHD (109 см) Android.png" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="400ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="images/portfolio/Artel TV UA43H3301 FHD (109 см).png" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>Artel TV UA43H3301  </h3>
-                    <p>FHD (109 см)</p>
-                  </div>
-                  <div class="folio-overview">
-                    
-                    <span class="folio-expand"><a href="images/portfolio/Artel TV UA43H3301 FHD (109 см).png" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="500ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="images/portfolio/Artel TV UA50H3502 UHD (127 см) Android.png" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>Artel TV UA50H3502</h3>
-                    <p>UHD (127 см) Android</p>
-                  </div>
-                  <div class="folio-overview">
-                    
-                    <span class="folio-expand"><a href="images/portfolio/Artel TV UA50H3502 UHD (127 см) Android.png" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
 
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="600ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="images/portfolio/Artel TV UA43H3502 UHD (109 см) Android.png" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>Artel TV UA43H3502 </h3>
-                    <p>UHD (109 см) Android</p>
-                  </div>
-                  <div class="folio-overview">
-                    
-                    <span class="folio-expand"><a href="images/portfolio/Artel TV UA43H3502 UHD (109 см) Android.png" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="700ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="images/portfolio/Artel TV UA32H1200 HD (82 см) Android.png" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>Artel TV UA32H1200</h3>
-                    <p> HD (82 см) Android</p>
-                  </div>
-                  <div class="folio-overview">
-                    
-                    <span class="folio-expand"><a href="images/portfolio/Artel TV UA32H1200 HD (82 см) Android.png" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="800ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="images/portfolio/Artel TV 43AU20H UHD (109 см) Android.png" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>Artel TV 43AU20H</h3>
-                    <p> UHD (109 см) Android</p>
-                  </div>
-                  <div class="folio-overview">
-                    
-                    <span class="folio-expand"><a href="images/portfolio/Artel TV 43AU20H UHD (109 см) Android.png" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="900ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="images/portfolio/Artel TV 65AU90GS UHD (165 см) Smart.jpg" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>Artel TV 65AU90GS</h3>
-                    <p> UHD (165 см) Smart</p>
-                  </div>
-                  <div class="folio-overview">
-                   
-                    <span class="folio-expand"><a href="images/portfolio/Artel TV 65AU90GS UHD (165 см) Smart.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="1000ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="images/portfolio/Artel TV 65AU90GA UHD (165 см) Smart.png" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>Artel TV 65AU90GA</h3>
-                    <p> UHD (165 см) Smart</p>
-                  </div>
-                  <div class="folio-overview">
-                    
-                    <span class="folio-expand"><a href="images/portfolio/Artel TV 65AU90GA UHD (165 см) Smart.png" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-       <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="images/portfolio/Artel TV 55AU90GS UHD (139 см) Smart.png" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>Artel TV 55AU90GS</h3>
-                    <p> UHD (139 см) Smart</p>
-                  </div>
-                  <div class="folio-overview">
-                    
-                    <span class="folio-expand"><a href="images/portfolio/Artel TV 55AU90GS UHD (139 см) Smart.png" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="400ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="images/portfolio/Artel TV LED A9000 55 FHD (139 см) Smart.jpg" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>Artel TV LED A9000</h3>
-                    <p>55 FHD (139 см) Smart</p>
-                  </div>
-                  <div class="folio-overview">
-                    
-                    <span class="folio-expand"><a href="images/portfolio/Artel TV LED A9000 55 FHD (139 см) Smart.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="500ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="images/portfolio/Artel TV LED A9000 55 FHD (139 см).jpg" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>Artel TV LED A9000</h3>
-                    <p>55 FHD (139 см)</p>
-                  </div>
-                  <div class="folio-overview">
-                    
-                    <span class="folio-expand"><a href="images/portfolio/Artel TV LED A9000 55 FHD (139 см).jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="600ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="images/portfolio/Artel TV LED 9100 49 FHD (124 см) .jpg" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>Artel TV LED 9100</h3>
-                    <p> 49 FHD (124 см)</p>
-                  </div>
-                  <div class="folio-overview">
-                    
-                    <span class="folio-expand"><a href="images/portfolio/Artel TV LED 9100 49 FHD (124 см) .jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="700ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="images/portfolio/Artel TV 43AF90G FHD (109 см).jpg" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>Artel TV 43AF90G</h3>
-                    <p> FHD (109 см)</p>
-                  </div>
-                  <div class="folio-overview">
-                    
-                    <span class="folio-expand"><a href="images/portfolio/Artel TV 43AF90G FHD (109 см).jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="800ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="images/portfolio/Artel TV 32AH90G HD (81 см) .jpg" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>Artel TV 32AH90G</h3>
-                    <p> HD (81 см)</p>
-                  </div>
-                  <div class="folio-overview">
-                    
-                    <span class="folio-expand"><a href="images/portfolio/Artel TV 32AH90G HD (81 см) .jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="900ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="images/portfolio/AH90G-24-main.jpg" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>Artel TV LED 24AH90G</h3>
-                    <p> HD (60 см)</p>
-                  </div>
-                  <div class="folio-overview">
-                    
-                    <span class="folio-expand"><a href="images/portfolio/AH90G-24-main.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        </div>
-      </div>
-    <div id="portfolio-single-wrap">
-      <div id="portfolio-single">
-      </div>
-    </div><!-- /#portfolio-single-wrap -->
-  </section><!--/#portfolio-->
-
-
-
-  <section id="features" class="parallax">
-    <div class="container">
-      <div class="row count">
-        <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1200ms" data-wow-delay="300ms">
-          <i class="fa fa-users"></i>
-          <p>более</p>
-          <h3 class="timer">100000</h3>
-          <p>Счастливых людей</p>
-        </div>
-        <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
-          <i class="fa fa-desktop"></i>
-           <p>более</p>          
-          <h3 class="timer">40</h3>                    
-          <p>Видов модели</p>
-        </div> 
-        <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="700ms">
-          <i class="fa fa-user"></i>
-           <p>окола</p>
-          <h3 class="timer">500</h3>                    
-          <p>Работников</p>
-        </div> 
-        <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="900ms">
-          <i class="fa fa-comment-o"></i>                    
-          <h3>24/7</h3>
-          <p>Быстрая поддержка</p>
-        </div>                 
-      </div>
-    </div>
-  </section><!--/#features-->
-
-  <section id="pricing">
-    <div class="container">
-      <div class="row">
-        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
-          <h2>Инструкции пользователя</h2>
-          <p>Вы можете загрузить инструкции по  вашему продукту </p>
-        </div>
-      </div>
-      <div class="pricing-table">
-        <div class="row">
-          <div class="col-sm-3">
-            <div class="single-table wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
-              <h3>Artel</h3>
-              <div class="price">
-                Android<span>Модели</span>                        
-              </div>
-              <ul>
-                <li>55 AU90GS</li>
-                <li>65 AU90GA</li>
-                <li>65 AU90GS</li>
-                <li>75/S9000</li>
-              </ul>
-              <a href="user manual/android tv big model.pdf" class="btn btn-lg btn-primary">download  1.7MB</a>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="single-table wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
-              <h3>Artel</h3>
-              <div class="price">
-                Android<span>Модели</span>                                
-              </div>
-              <ul>
-                <li>UA32H1200</li>
-                <li>UA43H1401 </li>
-                <li>UA32H3200</li>
-                <li>UA43H3401</li>
-                <li>UA50H3401 </li>
-                <li>UA43H3502</li>
-                <li>UA50H3500 </li>
-                <li>UA55H3502</li>
-              </ul>
-              <a href="user manual/android tv.pdf" class="btn btn-lg btn-primary">download  2.9MB</a>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="single-table featured wow flipInY" data-wow-duration="1000ms" data-wow-delay="800ms">
-              <h3>Artel</h3>
-              <div class="price">
-                Normal<span>Модели</span>                                
-              </div>
-              <ul>
-                <li>32AH90G </li>
-                <li>43AF90G </li>
-                <li>UA32H4101</li>
-                <li>UA43H3301</li>
-                <li>UA50H3301</li>                
-              </ul>
-              <a href="user manual/normal tv.pdf" class="btn btn-lg btn-primary">download  1.7MB</a>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="single-table wow flipInY" data-wow-duration="1000ms" data-wow-delay="1100ms">
-              <h3>Artel</h3>
-              <div class="price">
-                Skyworth<span>Модели</span>                    
-              </div>
-              <ul>
-                <li>43AU20H</li>
-                <li>50AU20H</li>
-                <li>55AU20H</li>
-                <li>       </li>
-                <li>       </li>
-                <li>       </li>
-                <li>       </li>
-                <li>       </li>
-                <li>       </li>
-              </ul>
-              <a href="user manual/skyworth.pdf" class="btn btn-lg btn-primary">download  2MB</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section><!--/#pricing-->
+                  </ul>
 
 
 
@@ -667,213 +269,809 @@
 
 
 
-  <section id="pricing">
-    <div class="container">
-      <div class="row">
-        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
-          <h2>Shivaki и Vesta</h2>
-          <p>Вы можете загрузить инструкции по  вашему продукту </p>
-        </div>
-      </div>
-      <div class="pricing-table">
-        <div class="row">
-          <div class="col-sm-3">
-            <div class="single-table wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
-              <h3>Shivaki</h3>
-              <div class="price">
-                <span>Модели</span>                        
-              </div>
-              <ul>
-                <li>32SH90G</li>
-                <li>43SF90G </li>
-                <li>US32H4103</li>
-                <li>US43H3303</li>
-                <li>US50H3303</li>
-              </ul>
-              <a href="user manual/4....32SH90G.pdf" class="btn btn-lg btn-primary">download  1.75MB</a>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="single-table wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
-              <h3>Vesta</h3>
-              <div class="price">
-                <span>Модель</span>                                
-              </div>
-              <ul>
-                <li>32V10H</li>
+
+
+
+
+
+
+
+          <li class="drop-down"><a href="">Сертификаты ЕАС</a>
+                  <ul>
+
+                      <li><a href="assets/eac/сс № 158.pdf">EAЭС №158</a></li>
+
+
+                      <li><a href="assets/eac/сс № 159.pdf">EAЭС №159</a></li>                    
+
                 
-              </ul>
-              <a href="user manual/7....32V10H.pdf" class="btn btn-lg btn-primary">download  3.3MB</a>
-            </div>
-          </div>
 
-        </div>
-      </div>
+
+
+
+
+                  </ul>
+
+
+
+          <li><a href="#contact">Контакты</a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+
     </div>
-  </section>
+  </header><!-- End Header -->
 
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
 
-  <section id="blog">
     <div class="container">
       <div class="row">
-        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
-          <h2>Сертификаты</h2>
-          <p>Вы можете загрузить сертификаты по  вашему продукту</p>
-        </div>
-      </div>
-      <div class="blog-posts">
-        <div class="row">
-          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
-            <div class="post-thumb">
-              <a href="certificate/Certificate L20 48010 - Final scan_01.jpg"><img class="img-responsive" src="certificate/Certificate L20 48010 - Final scan_01.jpg" alt=""></a> 
-              <div class="post-meta">
-                <span><i class="fa fa-comments-o"></i> </span>
-                <span><i class="fa fa-heart"></i> </span> 
-              </div>
-
-            </div>
-            <div class="entry-header">
-              <h3><a href="certificate/Certificate L20 48010 - Final scan.pdf">Подробнее...</a></h3>
-              <span class="date"></span>
-              <span class="cetagory"> <strong></strong></span>
-            </div>
-            <div class="entry-content">
-              <p> </p>
+        <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
+          <div data-aos="zoom-out">
+            <h1>Откройте для себя  <span>Artel</span></h1>
+            <h2>Наслаждайтесь любимым продуктом</h2>
+            <div class="text-center text-lg-left">
+              <a href="#about" class="btn-get-started scrollto">Начать</a>
             </div>
           </div>
-
- <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
-            <div class="post-thumb">
-              <a href="certificate/Certificate L20 48011 - Final scan_01.jpg"><img class="img-responsive" src="certificate/Certificate L20 48011 - Final scan_01.jpg" alt=""></a> 
-              <div class="post-meta">
-                <span><i class="fa fa-comments-o"></i></span>
-                <span><i class="fa fa-heart"></i></span> 
-              </div>
-
-            </div>
-            <div class="entry-header">
-              <h3><a href="certificate/Certificate L20 48011 - Final scan.pdf">Подробнее...</a></h3>
-              <span class="date"></span>
-              <span class="cetagory"> <strong></strong></span>
-            </div>
-            <div class="entry-content">
-              <p> </p>
-            </div>
-          </div>
-
-
-
-
-
-          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="800ms">
-            <div class="post-thumb">
-              <a href="certificate/Certificate L20 48012 - Final scan_01.jpg"><img class="img-responsive" src="certificate/Certificate L20 48012 - Final scan_01.jpg" alt=""></a>
-              <div class="post-meta">
-                <span><i class="fa fa-comments-o"></i></span>
-                <span><i class="fa fa-heart"></i></span> 
-              </div>
-
-            </div>
-            <div class="entry-header">
-              <h3><a href="certificate/Certificate L20 48012 - Final scan.pdf">Подробнее...</a></h3>
-              <span class="date"></span>
-              <span class="cetagory"><strong></strong></span>
-            </div>
-            <div class="entry-content">
-              <p></p>
-            </div>
-          </div>                    
         </div>
-                        
+        <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="300">
+          <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+        </div>
       </div>
     </div>
-  </section><!--/#blog-->
 
-  <section id="contact">
-    
-    <div id="contact-us" class="parallax">
-      <div class="container">
+    <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+      <defs>
+        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+      </defs>
+      <g class="wave1">
+        <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
+      </g>
+      <g class="wave2">
+        <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+      </g>
+      <g class="wave3">
+        <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
+      </g>
+    </svg>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container-fluid">
+
         <div class="row">
-          <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <h2>Наши контакты</h2>
-            <p>Вопросы по сайту Пожалуйста, пишите нам на электронную почту ваши замечания и пожелания по работе сайта.</p>            
+          <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch" data-aos="fade-right">
+            <a href="https://youtu.be/GCVC8V15FZY" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+          </div>
+
+          <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left">
+            <h3>О ПРОИЗВОДСТВЕ ТЕЛЕВИЗОРОВ</h3>
+            <p>Новая производственная линия имеет ряд конструктивных новшеств, благодаря которым производство телевизоров стало намного экономичнее и проще с технологической точки зрения. Линия отвечает всем правилам и требованиям современных производственных линий. Процесс состоит из предварительной сборки – приготовление основных узлов, состоящих из LED панели, динамиков, металлических каркасов для крепления плат и панелей, тестовой линии и упаковки.</p>
+
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4 class="title"><a href="assets/certificate/Certificate L20 48010 - Final scan.pdf">Artel</a></h4>
+              <p class="description">сертификат соответствия основан на оценке продукта Artel</p>
+            </div>
+
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4 class="title"><a href="assets/certificate/Certificate L20 48011 - Final scan.pdf">Shivaki</a></h4>
+              <p class="description">сертификат соответствия основан на оценке продукта Shivaki</p>
+            </div>
+
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4 class="title"><a href="assets/certificate/Certificate L20 48012 - Final scan.pdf">Vesta</a></h4>
+              <p class="description">сертификат соответствия основан на оценке продукта Vesta</p>
+            </div>
+
+
+
+             <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4 class="title"><a href="assets/eac/сс № 158.pdf">EAC 158</a></h4>
+              <p class="description">сертификат соответствия EAC основан на оценке продукта</p>
+            </div>
+
+
+             <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4 class="title"><a href="assets/eac/сс № 159.pdf">EAC 159</a></h4>
+              <p class="description">сертификат соответствия EAC основан на оценке продукта </p>
+            </div>
+
+
+
           </div>
         </div>
-        <div class="contact-form wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
-          <div class="row">
-            <div class="col-sm-6">
-              <form id="main-contact-form" name="contact-form" method="post" action="#">
-                <div class="row  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-                  <div class="col-sm-6">
-                    <div class="form-group">
-                      <input type="text" name="name" class="form-control" placeholder="Имя" required="required">
-                    </div>
-                  </div>
-                  <div class="col-sm-6">
-                    <div class="form-group">
-                      <input type="email" name="email" class="form-control" placeholder="Email Адрес" required="required">
-                    </div>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <input type="text" name="subject" class="form-control" placeholder="Тема" required="required">
-                </div>
-                <div class="form-group">
-                  <textarea name="message" id="message" class="form-control" rows="4" placeholder="Введите ваше сообщение" required="required"></textarea>
-                </div>                        
-                <div class="form-group">
-                  <button type="submit" class="btn-submit">Отправить</button>
-                </div>
-              </form>   
-            </div>
-            <div class="col-sm-6">
-              <div class="contact-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-                
-                <p>Отправьте сообщение электронной почты, и мы незамедлительно отправим вам ответ.</p>
-                <ul class="address">
-                  <li><i class="fa fa-map-marker"></i> <span> Address:</span> г.Ахангаран Бирлик ...  </li>
-                  <li><i class="fa fa-phone"></i> <span> Phone:</span> +99899 000 00 00 </li>
-                </ul>
-              </div>                            
-            </div>
-          </div>
-        </div>
+
       </div>
-    </div>        
-  </section><!--/#contact-->
-  <footer id="footer">
-    <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-      <div class="container text-center">
-        <div class="footer-logo">
-          <a href="index.html"><img class="img-responsive" src="images/logo.png" alt=""></a>
+    </section><!-- End About Section -->
+
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Телевизоры</h2>
+          <p>Подробно о телевизорах</p>
         </div>
+
+        <div class="row" data-aos="fade-left">
+          <div class="col-lg-3 col-md-4">
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="50">
+              <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
+              <h3><a href="https://www.artelgroup.org/product/televizor-artel-ua50h3401-127-sm-androidtv,639/">Artel TV UA50H3401 (127 см) Android</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
+              <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
+              <h3><a href="https://www.artelgroup.org/product/televizor-artel-ua43h3401-109-sm,638/">Artel TV UA43H3401 FHD (109 см) Android</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="150">
+              <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
+              <h3><a href="https://www.artelgroup.org/product/televizor-artel-ua32h4101-81-sm,637/">Artel TV UA32H4101 (81 см)</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
+              <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
+              <h3><a href="https://www.artelgroup.org/product/televizor-artel-ua50h3301,615/">Artel TV UA50H3301 (127 см)</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="250">
+              <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
+              <h3><a href="https://www.artelgroup.org/product/televizor-artel-50au20h,556/">Artel TV 50AU20H (127 см) Android</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
+              <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
+              <h3><a href="https://www.artelgroup.org/product/televizor-artel-ua43h3301-109-sm,614/">Artel TV UA43H3301 FHD (109 см)</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="350">
+              <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
+              <h3><a href="https://www.artelgroup.org/product/televizor-artel-ua55h3502-androidtv,610/">Artel TV UA55H3502 (139 см) Android</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
+              <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
+              <h3><a href="https://www.artelgroup.org/product/televizor-artel-ua50h3502-androidtv,630/">Artel TV UA50H3502 UHD (127 см) Android</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="450">
+              <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
+              <h3><a href="https://www.artelgroup.org/product/televizor-artel-ua43h3502-109sm-androidtv,629/">Artel TV UA43H3502 UHD (109 см) Android</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="500">
+              <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
+              <h3><a href="https://www.artelgroup.org/product/televizor-artel-ua43h1400,559/">Artel TV UA43H1400 (109 см) Android</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="550">
+              <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
+              <h3><a href="https://www.artelgroup.org/product/televizor-artel-ua32h1200,558/">Artel TV UA32H1200 HD (82 см) Android</a></h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="600">
+              <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
+              <h3><a href="https://www.artelgroup.org/product/televizor-artel-55au20h,557/">Artel TV 55AU20H (139 см) Android</a></h3>
+            </div>
+          </div>
+
+
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="650">
+              <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
+              <h3><a href="https://www.artelgroup.org/product/televizor-artel-43au20h,555/">Artel TV 43AU20H UHD (109 см) Android</a></h3>
+            </div>
+          </div>
+
+
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="700">
+              <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
+              <h3><a href="https://www.artelgroup.org/product/televizor-artel-tv-led-s9000-75-slim-smart-191-sm,58/">Artel TV LED S9000 75" (191 см) Slim Smart</a></h3>
+            </div>
+          </div>
+
+
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="750">
+              <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
+              <h3><a href="https://www.artelgroup.org/product/televizor-artel-65au90ga-165-sm,497/">Artel TV 65AU90GA UHD (165 см) Smart</a></h3>
+            </div>
+          </div>
+
+
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="800">
+              <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
+              <h3><a href="https://www.artelgroup.org/product/televizor-artel-tv-led-s9000-65-slim-smart-165-sm,56/">Artel TV 65AU90GS UHD (165 см) Smart</a></h3>
+            </div>
+          </div>
+
+
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="850">
+              <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
+              <h3><a href="https://www.artelgroup.org/product/televizor-artel-55au90gs-smart-139-sm,496/">Artel TV 55AU90GS UHD (139 см) Smart</a></h3>
+            </div>
+          </div>
+
+
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="900">
+              <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
+              <h3><a href="https://www.artelgroup.org/product/televizor-artel-tv-led-a9000-55-smart-139-sm,53/">AArtel TV LED A9000 55" FHD (139 см) Smart</a></h3>
+            </div>
+          </div>
+
+
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="950">
+              <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
+              <h3><a href="https://www.artelgroup.org/product/televizor-artel-tv-led-a9000-55,52/">Artel TV LED A9000 55" FHD (139 см)</a></h3>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="1000">
+              <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
+              <h3><a href="https://www.artelgroup.org/product/televizor-artel-tv-led-9000-49-smart-124-sm,51/">Artel TV LED 9000 49" (124 см) Smart</a></h3>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="1050">
+              <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
+              <h3><a href="https://www.artelgroup.org/product/televizor-artel-tv-led-9000-49-124-sm,511/">Artel TV LED 9000 49" (124 см)</a></h3>
+            </div>
+          </div>
+
+
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="1100">
+              <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
+              <h3><a href="https://www.artelgroup.org/product/televizor-artel-tv-led-a9000-49-124-sm,49/">Artel TV LED A9000 49" (124 см)</a></h3>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="1150">
+              <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
+              <h3><a href="https://www.artelgroup.org/product/televizory-artel-43-af-90-g-smart,317/">Artel TV 43AF90G (109 см) Smart</a></h3>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 mt-4">
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="1200">
+              <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
+              <h3><a href="https://www.artelgroup.org/product/televizory-artel-43af90g,316/">Artel TV 43AF90G FHD (109 см)</a></h3>
+            </div>
+          </div>
+
+
+
+
+        </div>
+
+      </div>
+    </section><!-- End Features Section -->
+
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts">
+      <div class="container">
+
+        <div class="row" data-aos="fade-up">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="icofont-simple-smile"></i>
+              <span data-toggle="counter-up">1000000</span>
+              <p>Счастливых людей</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+            <div class="count-box">
+              <i class="icofont-responsive"></i>
+              <span data-toggle="counter-up">40</span>
+              <p>Видов модели</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="icofont-live-support"></i>
+              <span data-toggle="counter-up">24</span>
+              <p>часа быстрая поддержка </p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="icofont-users-alt-5"></i>
+              <span data-toggle="counter-up">1000</span>
+              <p>рабочих мест</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+    <!-- ======= Details Section ======= -->
+    <section id="details" class="details">
+      <div class="container">
+
+        <div class="row content">
+          <div class="col-md-4" data-aos="fade-right">
+            <img src="assets/img/details-1.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-8 pt-4" data-aos="fade-up">
+            <h3>Наша Стратегия</h3>
+            <p class="font-italic">
+              Мы следуем определенной стратегии, благодаря которой наша компания и работающие в ней сотрудники непрерывно и всесторонне развиваются. Основные тезисы нашего стратегического плана развития:
+            </p>
+            <ul>
+              <li><i class="icofont-check"></i> Внедрение передовых методов проектирования и разработки, внедрение инновационных технологий в сферу производства для создания продукции, соответствующей международным стандартам, а также желаниям и вкусу потребителей.</li>
+              <li><i class="icofont-check"></i>Освоение внешних рынков путем производства и поставки качественной, функциональной, современной и доступной для всех продукции.</li>
+              <li><i class="icofont-check"></i> Повышение квалификации и развитие сотрудников компании, создание оптимальных условий труда, а также участие в разнообразных государственных социальных проектах..</li>
+              <li><i class="icofont-check"></i>Определение потребностей и ожиданий потребителей от продукции Artel, также оценка и работа над повышением их удовлетворенности.</li>
+              <li><i class="icofont-check"></i>Работа над совершенствованием уровня сервисного обслуживания потребителей.</li>
+            </ul>
+            <p>
+            
+            </p>
+          </div>
+        </div>
+
+        <div class="row content">
+          <div class="col-md-4 order-1 order-md-2" data-aos="fade-left">
+            <img src="assets/img/details-2.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
+            <h3>Международные отношения</h3>
+            <p class="font-italic">
+              Мы сотрудничаем со всемирно известными компаниями, такими, как Samsung и Shivaki. Производственной мощи Artel достаточно для производства продукции иностранных партнеров в полном соответствии с их техническими требованиями и стандартами. 
+            </p>
+            <p>
+              
+
+
+            </p>
+            <p>
+              
+
+            </p>
+          </div>
+        </div>
+
+        <div class="row content">
+          <div class="col-md-4" data-aos="fade-right">
+            <img src="assets/img/details-3.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-8 pt-5" data-aos="fade-up">
+            <h3>Экспорт </h3>
+            <p>Продукция Artel экспортируется во множество стран, среди которых  </p>
+            <ul>
+              <li><i class="icofont-check"></i> Украина</li>
+              <li><i class="icofont-check"></i> Казахстан</li>
+              <li><i class="icofont-check"></i> Кыргызстан</li>
+              <li><i class="icofont-check"></i> Афганистан</li>
+              <li><i class="icofont-check"></i> Азербайджан</li>
+              <li><i class="icofont-check"></i> Армения</li>
+              <li><i class="icofont-check"></i> Грузия</li>
+              <li><i class="icofont-check"></i> Туркменистан</li>
+              <li><i class="icofont-check"></i> Российская Федерация</li>
+              
+            </ul>
+            <p>
+             Ассортимент продукции Artel, а также спрос на нее постоянно расширяется. Компания непрерывно расширяет зону экспорта и открывает для себя новые рынки и страны.
+            </p>
+            <p>
+              
+            </p>
+          </div>
+        </div>
+
+        <div class="row content">
+          <div class="col-md-4 order-1 order-md-2" data-aos="fade-left">
+            <img src="assets/img/details-4.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
+            <h3>Бытовая техника ARTEL</h3>
+            <p class="font-italic">
+              производится с применением передовых технологий на современном оборудовании, отвечающим веяниям времени. Изучая и внедряя опыт мировых производителей бытовой техники мы создаем современную и удобную продукцию, которая приходится по душе нашим клиентам.
+            </p>
+            <p>
+              Вся линейка бытовой техники ARTEL производится в Узбекистане, отвечает самым высоким стандартам качества и является 100% отечественным брендом. На производствах ARTEL установлено оборудование ведущих мировых производителей, специализирующихся на производстве оснащения технологических линий и сложной бытовой техники:
+            </p>
+            <ul>
+             
+              <li><i class="icofont-check"></i> COMI</li>
+              <li><i class="icofont-check"></i> ULVAC</li>
+              <li><i class="icofont-check"></i> Inficon</li>
+              <p>
+              Благодаря применению высокотехнологичного оборудования, производственные процессы полностью автоматизированы, а качество произведенных операций проверяется на каждом этапе с помощью электронных систем контроля.
+            </p>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Details Section -->
+
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="gallery">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Детали</h2>
+          <p>ARTEL</p>
+        </div>
+
+        <div class="row no-gutters" data-aos="fade-left">
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+              <a href="assets/img/gallery/32AH90G_43AF90G  Normal Artel.jpg" class="venobox" data-gall="gallery-item">
+                <img src="assets/img/gallery/32AH90G_43AF90G  Normal Artel.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+              <a href="assets/img/gallery/43_50_55_AU20H Smart UHD Artel.jpg" class="venobox" data-gall="gallery-item">
+                <img src="assets/img/gallery/43_50_55_AU20H Smart UHD Artel.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+              <a href="assets/img/gallery/55AU90GS_65AU90GS_75S9000 Smart UHD Artel.jpg" class="venobox" data-gall="gallery-item">
+                <img src="assets/img/gallery/55AU90GS_65AU90GS_75S9000 Smart UHD Artel.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
+              <a href="assets/img/gallery/65AU90GA Smart UHD Artel.jpg" class="venobox" data-gall="gallery-item">
+                <img src="assets/img/gallery/65AU90GA Smart UHD Artel.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="400">
+              <a href="assets/img/gallery/UA32H1200_UA43H1400 Android Smart Artel.jpg" class="venobox" data-gall="gallery-item">
+                <img src="assets/img/gallery/UA32H1200_UA43H1400 Android Smart Artel.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="450">
+              <a href="assets/img/gallery/UA32H4101_Ua43H3301_UA50H3301 Normal FHD Artel.jpg" class="venobox" data-gall="gallery-item">
+                <img src="assets/img/gallery/UA32H4101_Ua43H3301_UA50H3301 Normal FHD Artel.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+
+        <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+              <a href="assets/img/gallery/UA43H3401_UA50H3401 Smart FHD Artel.jpg" class="venobox" data-gall="gallery-item">
+                <img src="assets/img/gallery/UA43H3401_UA50H3401 Smart FHD Artel.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="150">
+              <a href="assets/img/gallery/UA43H3502_UA50H3502_UA55H3502 Smart UHD Artel.jpg" class="venobox" data-gall="gallery-item">
+                <img src="assets/img/gallery/UA43H3502_UA50H3502_UA55H3502 Smart UHD Artel.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+        </div>
+      
+
+
+              <div class="section-title" data-aos="fade-up">
+          <h2></h2>
+          <p>SHIVAKI</p>
+        </div>
+
+        <div class="row no-gutters" data-aos="fade-left">
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+              <a href="assets/img/gallery/32SH90G_43SF90G Normal  Shivaki.jpg" class="venobox" data-gall="gallery-item">
+                <img src="assets/img/gallery/32SH90G_43SF90G Normal  Shivaki.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+              <a href="assets/img/gallery/43_50_55_SU20H Smart UHD Shivaki.jpg" class="venobox" data-gall="gallery-item">
+                <img src="assets/img/gallery/43_50_55_SU20H Smart UHD Shivaki.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+              <a href="assets/img/gallery/US32H1201_US43H1401 Android Smart Shivaki.jpg" class="venobox" data-gall="gallery-item">
+                <img src="assets/img/gallery/US32H1201_US43H1401 Android Smart Shivaki.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350">
+              <a href="assets/img/gallery/US32H4103_US43H3303_US50H3303 Normal FHD Shivaki.jpg" class="venobox" data-gall="gallery-item">
+                <img src="assets/img/gallery/US32H4103_US43H3303_US50H3303 Normal FHD Shivaki.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="400">
+              <a href="assets/img/gallery/US43H3403_US50H3403 Smart FHD Shivaki.jpg" class="venobox" data-gall="gallery-item">
+                <img src="assets/img/gallery/US43H3403_US50H3403 Smart FHD Shivaki.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="450">
+              <a href="assets/img/gallery/US43H3501_US50H3501_US55H3501 Smart UHD Shivaki.jpg" class="venobox" data-gall="gallery-item">
+                <img src="assets/img/gallery/US43H3501_US50H3501_US55H3501 Smart UHD Shivaki.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>    
+
+
+
         
+
+
       </div>
-    </div>
-    <div class="footer-bottom">
+    </section><!-- End Gallery Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+
+        <div class="owl-carousel testimonials-carousel" data-aos="zoom-in">
+
+          <div class="testimonial-item">
+            <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+            <h3>Генри Форд</h3>
+            <h4>изобретатель, предприниматель, промышленник</h4>
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Качество — это делать что-либо правильно, даже когда никто не смотрит
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+            <h3>Масааки Имаи</h3>
+            <h4>основатель института Кайдзен</h4>
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+             Центральная идея кайдзен заключается в том, что без совершенствования в компании не должно проходить ни дня..
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+            <h3>Гай Кавасаки</h3>
+            <h4>управляющий директор Garage Technology Ventures</h4>
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Великие компании начинаются с желания изменить мир, а не заработать легкие деньги
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+            <h3>Дэвид Рокфеллер</h3>
+            <h4>американский финансист</h4>
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Для успеха в бизнесе нужны обучение, дисциплина и упорная работа. Но если это вас не пугает, возможности сегодня гораздо больше, чем когда-либо
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+            <h3>Акио Морита</h3>
+            <h4>основатель корпорации Sony</h4>
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Компания ничего не достигнет, если думать будет только руководство
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+ 
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Контакты</h2>
+          <p>Наши контакты</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4" data-aos="fade-right" data-aos-delay="100">
+            <div class="info">
+              <div class="address">
+                <i class="icofont-google-map"></i>
+                <h4>Location:</h4>
+                <p>г.Ахангаран Бирлик м.ф.й.</p>
+              </div>
+
+              <div class="email">
+                <i class="icofont-envelope"></i>
+                <h4>Email:</h4>
+                <p>arteltv@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="icofont-phone"></i>
+                <h4>Phone:</h4>
+                <p>270 00 77</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left" data-aos-delay="200">
+
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="form-row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Ваше Имя" data-rule="minlen:4" data-msg="Пожалуйста, введите не менее 4 символов" />
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-6 form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Ваш Email" data-rule="email" data-msg="Пожалуйста, введите действительный адрес электронной почты" />
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Тема" data-rule="minlen:4" data-msg="Пожалуйста, введите не менее 8 символов " />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Пожалуйста, напишите что-нибудь для нас" placeholder="Сообщение"></textarea>
+                <div class="validate"></div>
+              </div>
+              <div class="mb-3">
+                <div class="loading">Загрузка</div>
+                <div class="error-message">Ошибка сообщение</div>
+                <div class="sent-message">Ваше сообщение отправлено. Спасибо!</div>
+              </div>
+              <div class="text-center"><button type="submit">Отправить сообщение</button></div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
       <div class="container">
         <div class="row">
-          <div class="col-sm-6">
-            <p>&copy; Artel TV Axangaran 2020</p>
-          </div>
-          <div class="col-sm-6">
-            <p class="pull-right">Designed by <a href="https://artelgroup.org/">Shayunusov</a></p>
-          </div>
+
+          
+
+          
+
+         
+
+
+
         </div>
       </div>
     </div>
-  </footer>
 
-  <script type="text/javascript" src="js/jquery.js"></script>
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
-  <script type="text/javascript" src="js/jquery.inview.min.js"></script>
-  <script type="text/javascript" src="js/wow.min.js"></script>
-  <script type="text/javascript" src="js/mousescroll.js"></script>
-  <script type="text/javascript" src="js/smoothscroll.js"></script>
-  <script type="text/javascript" src="js/jquery.countTo.js"></script>
-  <script type="text/javascript" src="js/lightbox.min.js"></script>
-  <script type="text/javascript" src="js/main.js"></script>
+    <div class="container">
+      <div class="copyright">
+        &copy; Авторские права <strong><span>Artel TV</span></strong>. Все права защищены
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/ -->
+        Разработаль Shayunusov <a href=""></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
+
 </html>
