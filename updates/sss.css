@@ -1,0 +1,34 @@
+element.style {
+}
+
+user agent stylesheet
+div {
+    display: block;
+}
+body, textarea, input, select, textarea, button {
+    line-height: 1.32;
+}
+body {
+    overflow: auto;
+    color: #000;
+}
+html, body, a {
+    font-size: inherit;
+}
+body, textarea, input, select, textarea, button {
+    font-family: "SamsungOne", Arial, sans-serif;
+    color: #363636;
+    line-height: 1.32;
+}
+body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, p, table, th, td, form, fieldset, legend, textarea, input, select, textarea, button, figure, figcaption {
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+}
+html, body {
+    font-size: 12px;
+}
+html {
+    -webkit-text-size-adjust: none;
